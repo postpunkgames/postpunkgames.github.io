@@ -160,9 +160,13 @@ opacity:0;
 	animation-duration: 10s;
 	animation-direction: alternate;
 }
-#games, #crew {
+#crew {
+	background-color: #d8d1c0;
+}
+#games {
 	background-color: #e3e0d7;
 }
+
 #games p {
 	font-size: 0.938em;
 	padding: 0;
