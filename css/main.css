@@ -398,7 +398,9 @@ input[type=email], input[type=email]:focus {
 #inner {
 	padding-left: 1.0em;
 	padding-right: 1.0em;
+
 }
+
 #game {
 	text-align: center;
 }
@@ -433,8 +435,11 @@ input[type=email], input[type=email]:focus {
 #crew_inn {
 	padding-bottom: 85px;
 }
+#crew {
+	padding-bottom: 10px;
+}
 .gwd-div-jvg1 {
-	top: -35px;
+	top: -115px;
 }
 }
  @media screen and (max-width: 568px) {
@@ -457,6 +462,9 @@ input[type=email], input[type=email]:focus {
 }
  @media screen and (max-width: 420px) {
 .gwd-div-jvg1 {
-	top: -30px;
+	top: -110px;
+}
+#crew {
+	padding-bottom: 50px;
 }
 }
