@@ -25,6 +25,11 @@ html body {
 #crew_inn {
 	position: relative;
 }
+
+#crew #inner{
+	max-width: 750px;
+}
+
 body {
 	text-align: center;
 	
