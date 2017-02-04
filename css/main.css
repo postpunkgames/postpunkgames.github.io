@@ -418,7 +418,7 @@ input[type=email], input[type=email]:focus {
 	bottom-margin: 50px;
 }
 .gwd-div-jvg1 {
-	top: 330px;
+	top: -330px;
 }
 }
  @media screen and (max-width: 915px) {
@@ -429,7 +429,7 @@ input[type=email], input[type=email]:focus {
 	padding-bottom: 85px;
 }
 .gwd-div-jvg1 {
-	top: 715px;
+	top: -715px;
 }
 }
  @media screen and (max-width: 568px) {
@@ -443,7 +443,7 @@ input[type=email], input[type=email]:focus {
 }
  @media screen and (max-width: 449px) {
 .gwd-div-jvg1 {
-	top: 720px;
+	top: -720px;
 }
 #mc-embedded-subscribe {
 	width: 200px;
@@ -452,6 +452,6 @@ input[type=email], input[type=email]:focus {
 }
  @media screen and (max-width: 420px) {
 .gwd-div-jvg1 {
-	top: 710px;
+	top: -710px;
 }
 }
