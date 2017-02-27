@@ -1,0 +1,622 @@
+@font-face {
+	font-family: 'Quicksand-Bold';
+	src: url('Quicksand-Bold.otf');
+}
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src: url('Quicksand-Regular.otf');
+}
+html body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	background-color: #d8d1c0;
+	font-family: 'Quicksand-Bold';
+	overflow:auto;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+#container{
+	
+}
+
+#crew_inn {
+	position: relative;
+}
+
+#crew #inner{
+	max-width: 750px;
+}
+
+body {
+	text-align: center;
+	
+}
+
+h1 {
+	font-size: 2.250em;
+	letter-spacing: -0.045em;
+	margin-bottom: 0.3em;
+}
+h2 {
+	font-size: 1.1em;
+	letter-spacing: -0.022em;
+	margin: 0;
+	margin-bottom: 2.9em;
+}
+h3 {
+	font-size: 1.875em;
+	letter-spacing: -0.045em;
+	margin-bottom: 0.2em;
+	margin-top: -0.3em;
+}
+h4 {
+	font-family: 'Quicksand-Regular';
+	font-size: 0.875em;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	-ms-transition: color 0.5s;
+	transition: color 0.5s;
+}
+#inner {
+	max-width: 1000px;
+	display: inline-block;
+	margin-top: 1.55em;
+	margin-bottom: 3.5em;
+}
+#top {
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+#menu {
+	font-size: 1.9em;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: #000;
+	margin-top: 1.25em;
+	cursor: default;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	-ms-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	-ms-transition: color 0.5s;
+	transition: color 0.5s;
+}
+#menu:hover {
+	background-color: #000;
+	color: #55524a;
+}
+#menu:hover a {
+	color: #55524a;
+}
+#menu a:hover {
+	color: #fff;
+}
+#button a {
+	font-size: 1.250em;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0.1em;
+	text-decoration: none;
+	color: #000;
+	padding: 0.35em 1.2em 0.35em 1.2em;
+	margin: 0;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	-ms-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+#button a:hover {
+	background-color: #000;
+}
+
+#games #inner{
+	padding-top: 80px;
+}
+
+#games {
+	min-height: 500px;
+	
+}
+
+#games #buttonPressKit a:hover {
+	color: black;
+}
+
+#buttonPressKit {
+	padding-top: 25px;
+	padding-left: 2px;
+}
+
+#button a:hover {
+	color: #d6c9ab;
+}
+
+#buttonPressKit a {
+	font-size: 1.250em;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: white;
+	border-width: 0.05em;
+	text-decoration: none;
+	color: white;
+	padding: 0.8em 8.04em 0.8em 8.04em;
+	margin: 0;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	-ms-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+#buttonPressKit a:hover {
+	background-color: white;
+}
+#gamesPressKit #button a:hover {
+	color: black;
+}
+#buttonPressKit a:hover {
+	color: black;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0.25em 0.73em 0.25em 0.73em;
+	margin: 0;
+}
+#menu ul li {
+	display: inline;
+}
+#rotator {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+ @keyframes cf3FadeInOut {
+ 0% {
+ opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+#rotator img.top {
+	animation-name: cf3FadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-direction: alternate;
+}
+#crew {
+	background-color: #d8d1c0;
+}
+#games {
+	background-color: #141411;
+	background-image: url(../images/omnom-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#games h3, h4 {
+	color: white;
+}
+
+#games p {
+	font-size: 0.938em;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+	line-height: 1.35em;
+	color: white;
+}
+#game {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	
+}
+#gvideo {
+	float: left;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+#gvideo iframe {
+	border: none;
+	
+}
+
+#gtxt {
+	float: left;
+	max-width: 28em;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	margin-left: 2.4em;
+}
+#gtxt #button {
+	margin-top: 1.5em;
+	margin-bottom: 1.7em;
+}
+#ggalery {
+	margin-top: 0.9em;
+}
+#sl_logo {
+	margin-bottom: 3.0em;
+}
+#crew_mem {
+	max-width: 26.875em;
+	display: inline-block;
+}
+#crew_mem p {
+	font-family: 'Quicksand-Regular';
+	font-size: 1.1em;
+	margin-bottom: 1.9em;
+}
+#crew_mem a {
+	padding: 0 0.5em 0 0.5em;
+	margin: 0;
+}
+.fb, .twitt {
+	width: 2.313em;
+	height: 2.313em;
+	-webkit-transition: fill 0.5s;
+	-moz-transition: fill 0.5s;
+	-o-transition: fill 0.5s;
+	-ms-transition: fill 0.5s;
+	transition: fill 0.5s;
+}
+.twitt:hover, .fb:hover {
+	fill: #fff;
+}
+#contact .fb, #contact .twitt, #contact .tube {
+	width: 3.125em;
+	height: 3.125em;
+	fill: #fff;
+	-webkit-transition: fill 0.5s;
+	-moz-transition: fill 0.5s;
+	-o-transition: fill 0.5s;
+	-ms-transition: fill 0.5s;
+	transition: fill 0.5s;
+}
+#contact .fb:hover, #contact .twitt:hover, #contact .tube:hover {
+	fill: #d6c9ab;
+}
+#contact {
+	background-color: #000;
+	color: #fff;
+}
+#contact a {
+	padding: 0 0.625em 0 0.625em;
+}
+#link {
+	margin-top: 1.0em;
+}
+#link a {
+	font-size: 1.2em;
+	color: #FFF;
+}
+#link a:hover {
+	color: #d6c9ab;
+}
+#contact h2 {
+}
+#news {
+	margin-bottom: 4.0em;
+}
+input[type=email], input[type=email]:focus {
+	font-family: 'Quicksand-Bold';
+	margin: 0;
+	padding: 0;
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+	width: 21.750em;
+	padding-top: 1.25em;
+	padding-bottom: 1.00em;
+	background: #000;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0.2em;
+	color: #FFF;
+	margin: 0;
+	outline: none;
+}
+#mc-embedded-subscribe {
+	font-family: 'Quicksand-Bold';
+	margin: 0;
+	padding: 0;
+	font-size: 0.90em;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0.15em;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	padding: 0.7em 1.2em 0.7em 1.2em;
+	outline: none;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	-ms-transition: color 0.5s;
+	transition: color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	-ms-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+#mc-embedded-subscribe:hover {
+	cursor: pointer;
+	color: #000;
+	background-color: #FFF;
+}
+#sbutton {
+	font-family: 'Quicksand-Bold';
+	margin: 0;
+	padding: 0;
+	font-size: 0.90em;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0.15em;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	padding: 0.7em 1.2em 0.7em 1.2em;
+	outline: none;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	-ms-transition: color 0.5s;
+	transition: color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	-ms-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+#sbutton:hover {
+	cursor: pointer;
+	color: #000;
+	background-color: #FFF;
+}
+#social img {
+	padding-left: 0.625em;
+	padding-right: 0.625em;
+	padding-bottom: 1.2em;
+}
+.twittBB:hover ~ .twitt, .fbBB:hover ~ .fb {
+	fill: #fff
+}
+.cfbBB:hover ~ .fbb {
+	fill: #d6c9ab
+}
+.fbb {
+	fill: #FFF;
+	-webkit-transition: fill 0.5s;
+	-moz-transition: fill 0.5s;
+	-o-transition: fill 0.5s;
+	-ms-transition: fill 0.5s;
+	transition: fill 0.5s;
+}
+.fbb:hover {
+	fill: #d6c9ab
+}
+.gwd-div-jvg1 {
+	position: absolute;
+	top: -205px;
+	right: -175px;
+	bottom: 300px;
+	width: 286px;
+	height: 315px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+@-moz-document url-prefix() {
+	.gwd-div-jvg1 {
+		position:absolute;
+		overflow: hidden;
+		right: -160px;
+	}	
+}
+
+@media screen and (max-width: 1350px) {
+.gwd-div-jvg1 {
+	top: -120px;
+	left: calc(50% - 140px);
+}
+
+#crew {
+	padding-bottom: 120px;
+}
+
+}
+ @media screen and (max-width: 1050px) {
+#inner {
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+
+}
+
+#game {
+	text-align: center;
+		
+}
+#gtxt {
+	float: none;
+	text-align: center;
+	max-width: 28em;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 1.2em;
+}
+#gvideo {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+	 
+.mce-success-response {
+	max-width: 3.750em;
+	margin-top: 2.0em;
+}
+.crewPadd {
+	bottom-margin: 50px;
+}
+.gwd-div-jvg1 {
+	top: -110px;
+}
+	 
+	 
+	#games{
+		background-image: url(../images/omnom-header2.jpg);
+		background-position: bottom;
+	}
+	#games #inner{
+		min-height: 640px;
+		margin-top: 0px;
+	}
+	#games #inner #gtxt {
+		padding-top: 40px;
+	}
+	#games #inner #gtxt p{
+		padding-bottom: 10px;
+	}
+	 
+ 
+}
+ @media screen and (max-width: 915px) {
+.crewPadd {
+	padding-bottom: 3.0em;
+}
+#crew_inn {
+	padding-bottom: 85px;
+}
+#crew {
+	padding-bottom: 10px;
+}
+.gwd-div-jvg1 {
+	top: -115px;
+}
+
+}
+ @media screen and (max-width: 568px) {
+
+	 #gvideo iframe {
+		 padding-top: 10px;
+		 max-width: 470px;
+		 height: 290px;
+	 }
+	 
+	 
+	 #game {
+		 max-width: 470px;
+	 }
+#gtxt {
+	max-width: 350px;
+}
+#gvideo img {
+	width: 80%;
+	height: 80%;
+}
+	 	 #buttonPressKit a{
+		 padding: 0.6em 6.2em 0.6em 6.2em;
+	 }
+	 #greenLight a img{
+		 max-width: 350px;
+		 height: auto;
+	 }
+}
+ @media screen and (max-width: 449px) {
+	 	 	#games{
+		background-image: url(../images/omnom-header3.jpg);
+		background-position: bottom;
+	}
+	 #gvideo iframe {
+		 padding-top: 10px;
+		 max-width: 350px;
+		 height: 230px;
+	 }
+	 	 #game {
+		 max-width: 350px;
+	 }
+#gtxt {
+	max-width: 320px;
+}
+	 	#buttonPressKit a{
+		 padding: 0.6em 5.5em 0.6em 5.5em;
+	 }
+	 #greenLight a img{
+		 max-width: 322px;
+		 height: auto;
+	 }
+
+	 
+.gwd-div-jvg1 {
+	top: -30px;
+}
+#mc-embedded-subscribe {
+	width: 200px;
+	margin-top: 20px;
+}
+	 
+}
+ @media screen and (max-width: 420px) {
+
+	 	 	#games{
+		background-image: url(../images/omnom-header4.jpg);
+		background-position: bottom;
+	}
+	 #gvideo iframe {
+		 padding-top: 10px;
+		 max-width: 290px;
+		 height: 200px;
+	 }
+	 
+	 	 	 #game {
+		 max-width: 290px;
+	 }
+#gtxt {
+	max-width: 240px;
+}
+	 	#buttonPressKit a{
+		 padding: 0.6em 3.5em 0.6em 3.5em;
+	 }
+	 #greenLight a img{
+		 max-width: 242px;
+		 height: auto;
+	 }
+	 
+
+.gwd-div-jvg1 {
+	top: -110px;
+}
+#crew {
+	padding-bottom: 50px;
+}
+}
