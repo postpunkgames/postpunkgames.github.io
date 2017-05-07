@@ -140,6 +140,7 @@ a {
 #buttonPressKit {
 	padding-top: 25px;
 	padding-left: 2px;
+	max-width: 150px;
 }
 
 #button a:hover {
